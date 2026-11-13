@@ -1,0 +1,677 @@
+{
+ "voz": "cedar",
+ "modelo": "gpt-4o-mini-tts-2025-12-15",
+ "blocos": [
+  {
+   "id": "hook",
+   "audio": "hook.mp3",
+   "duracao": 7.56,
+   "palavras": [
+    {
+     "palavra": "Papel-alumínio,",
+     "inicio": 0.0,
+     "fim": 1.06
+    },
+    {
+     "palavra": "água",
+     "inicio": 1.66,
+     "fim": 1.68
+    },
+    {
+     "palavra": "e",
+     "inicio": 1.68,
+     "fim": 2.16
+    },
+    {
+     "palavra": "sal:",
+     "inicio": 2.16,
+     "fim": 2.22
+    },
+    {
+     "palavra": "em",
+     "inicio": 2.62,
+     "fim": 2.68
+    },
+    {
+     "palavra": "três",
+     "inicio": 2.68,
+     "fim": 3.0
+    },
+    {
+     "palavra": "minutos,",
+     "inicio": 3.0,
+     "fim": 3.42
+    },
+    {
+     "palavra": "a",
+     "inicio": 3.82,
+     "fim": 4.02
+    },
+    {
+     "palavra": "prata",
+     "inicio": 4.02,
+     "fim": 4.24
+    },
+    {
+     "palavra": "preta",
+     "inicio": 4.24,
+     "fim": 4.76
+    },
+    {
+     "palavra": "volta",
+     "inicio": 4.76,
+     "fim": 5.1
+    },
+    {
+     "palavra": "a",
+     "inicio": 5.1,
+     "fim": 5.6
+    },
+    {
+     "palavra": "brilhar.",
+     "inicio": 5.6,
+     "fim": 5.72
+    },
+    {
+     "palavra": "E",
+     "inicio": 5.86,
+     "fim": 6.0
+    },
+    {
+     "palavra": "isso",
+     "inicio": 6.0,
+     "fim": 6.46
+    },
+    {
+     "palavra": "caiu",
+     "inicio": 6.46,
+     "fim": 6.88
+    },
+    {
+     "palavra": "no",
+     "inicio": 6.88,
+     "fim": 7.02
+    },
+    {
+     "palavra": "ENEM.",
+     "inicio": 7.02,
+     "fim": 7.28
+    }
+   ]
+  },
+  {
+   "id": "contexto",
+   "audio": "contexto.mp3",
+   "duracao": 6.288,
+   "palavras": [
+    {
+     "palavra": "A",
+     "inicio": 0.0,
+     "fim": 0.26
+    },
+    {
+     "palavra": "prata",
+     "inicio": 0.26,
+     "fim": 0.54
+    },
+    {
+     "palavra": "escurece",
+     "inicio": 0.54,
+     "fim": 1.24
+    },
+    {
+     "palavra": "porque",
+     "inicio": 1.24,
+     "fim": 1.76
+    },
+    {
+     "palavra": "forma",
+     "inicio": 1.76,
+     "fim": 2.04
+    },
+    {
+     "palavra": "sulfeto",
+     "inicio": 2.04,
+     "fim": 2.56
+    },
+    {
+     "palavra": "de",
+     "inicio": 2.56,
+     "fim": 2.98
+    },
+    {
+     "palavra": "prata.",
+     "inicio": 2.98,
+     "fim": 2.98
+    },
+    {
+     "palavra": "A",
+     "inicio": 3.4,
+     "fim": 3.44
+    },
+    {
+     "palavra": "questão",
+     "inicio": 3.44,
+     "fim": 3.74
+    },
+    {
+     "palavra": "quer",
+     "inicio": 3.74,
+     "fim": 4.08
+    },
+    {
+     "palavra": "a",
+     "inicio": 4.08,
+     "fim": 4.26
+    },
+    {
+     "palavra": "voltagem",
+     "inicio": 4.26,
+     "fim": 4.56
+    },
+    {
+     "palavra": "de",
+     "inicio": 4.56,
+     "fim": 4.84
+    },
+    {
+     "palavra": "escurecer",
+     "inicio": 4.84,
+     "fim": 5.44
+    },
+    {
+     "palavra": "e",
+     "inicio": 5.44,
+     "fim": 5.68
+    },
+    {
+     "palavra": "de",
+     "inicio": 5.68,
+     "fim": 5.88
+    },
+    {
+     "palavra": "clarear.",
+     "inicio": 5.88,
+     "fim": 6.14
+    }
+   ]
+  },
+  {
+   "id": "pegadinha",
+   "audio": "pegadinha.mp3",
+   "duracao": 10.296,
+   "palavras": [
+    {
+     "palavra": "A",
+     "inicio": 0.0,
+     "fim": 0.36
+    },
+    {
+     "palavra": "pegadinha:",
+     "inicio": 0.36,
+     "fim": 0.94
+    },
+    {
+     "palavra": "pra",
+     "inicio": 0.94,
+     "fim": 1.52
+    },
+    {
+     "palavra": "igualar",
+     "inicio": 1.52,
+     "fim": 2.08
+    },
+    {
+     "palavra": "os",
+     "inicio": 2.08,
+     "fim": 2.32
+    },
+    {
+     "palavra": "elétrons,",
+     "inicio": 2.32,
+     "fim": 2.72
+    },
+    {
+     "palavra": "você",
+     "inicio": 3.12,
+     "fim": 3.36
+    },
+    {
+     "palavra": "multiplica",
+     "inicio": 3.36,
+     "fim": 3.82
+    },
+    {
+     "palavra": "a",
+     "inicio": 3.82,
+     "fim": 4.16
+    },
+    {
+     "palavra": "semirreação",
+     "inicio": 4.16,
+     "fim": 4.54
+    },
+    {
+     "palavra": "por",
+     "inicio": 4.54,
+     "fim": 4.82
+    },
+    {
+     "palavra": "dois,",
+     "inicio": 4.82,
+     "fim": 5.12
+    },
+    {
+     "palavra": "por",
+     "inicio": 5.12,
+     "fim": 5.58
+    },
+    {
+     "palavra": "três.",
+     "inicio": 5.58,
+     "fim": 5.9
+    },
+    {
+     "palavra": "O",
+     "inicio": 6.26,
+     "fim": 6.4
+    },
+    {
+     "palavra": "potencial,",
+     "inicio": 6.4,
+     "fim": 6.8
+    },
+    {
+     "palavra": "não!",
+     "inicio": 7.04,
+     "fim": 7.14
+    },
+    {
+     "palavra": "Três",
+     "inicio": 7.54,
+     "fim": 7.76
+    },
+    {
+     "palavra": "alternativas",
+     "inicio": 7.76,
+     "fim": 8.42
+    },
+    {
+     "palavra": "erradas",
+     "inicio": 8.42,
+     "fim": 8.98
+    },
+    {
+     "palavra": "saem",
+     "inicio": 8.98,
+     "fim": 9.56
+    },
+    {
+     "palavra": "desse",
+     "inicio": 9.56,
+     "fim": 9.84
+    },
+    {
+     "palavra": "erro.",
+     "inicio": 9.84,
+     "fim": 10.04
+    }
+   ]
+  },
+  {
+   "id": "escala",
+   "audio": "escala.mp3",
+   "duracao": 13.464,
+   "palavras": [
+    {
+     "palavra": "Pensa",
+     "inicio": 0.0,
+     "fim": 0.48
+    },
+    {
+     "palavra": "no",
+     "inicio": 0.48,
+     "fim": 1.0
+    },
+    {
+     "palavra": "potencial",
+     "inicio": 1.0,
+     "fim": 1.48
+    },
+    {
+     "palavra": "como",
+     "inicio": 1.48,
+     "fim": 1.84
+    },
+    {
+     "palavra": "altura:",
+     "inicio": 1.84,
+     "fim": 2.36
+    },
+    {
+     "palavra": "alumínio",
+     "inicio": 3.06,
+     "fim": 3.12
+    },
+    {
+     "palavra": "embaixo,",
+     "inicio": 3.12,
+     "fim": 3.66
+    },
+    {
+     "palavra": "−1,68.",
+     "inicio": 4.1,
+     "fim": 5.62
+    },
+    {
+     "palavra": "Sulfeto",
+     "inicio": 6.32,
+     "fim": 6.54
+    },
+    {
+     "palavra": "de",
+     "inicio": 6.54,
+     "fim": 6.82
+    },
+    {
+     "palavra": "prata",
+     "inicio": 6.82,
+     "fim": 7.06
+    },
+    {
+     "palavra": "no",
+     "inicio": 7.06,
+     "fim": 7.5
+    },
+    {
+     "palavra": "meio,",
+     "inicio": 7.5,
+     "fim": 7.7
+    },
+    {
+     "palavra": "−0,69.",
+     "inicio": 8.3,
+     "fim": 9.9
+    },
+    {
+     "palavra": "Oxigênio",
+     "inicio": 10.42,
+     "fim": 10.82
+    },
+    {
+     "palavra": "no",
+     "inicio": 10.82,
+     "fim": 11.22
+    },
+    {
+     "palavra": "topo,",
+     "inicio": 11.22,
+     "fim": 11.36
+    },
+    {
+     "palavra": "+1,23.",
+     "inicio": 11.76,
+     "fim": 12.96
+    }
+   ]
+  },
+  {
+   "id": "escurecer",
+   "audio": "escurecer.mp3",
+   "duracao": 6.96,
+   "palavras": [
+    {
+     "palavra": "Escurecer:",
+     "inicio": 0.0,
+     "fim": 0.94
+    },
+    {
+     "palavra": "a",
+     "inicio": 1.32,
+     "fim": 1.44
+    },
+    {
+     "palavra": "prata",
+     "inicio": 1.44,
+     "fim": 1.68
+    },
+    {
+     "palavra": "oxida,",
+     "inicio": 1.68,
+     "fim": 2.24
+    },
+    {
+     "palavra": "o",
+     "inicio": 2.64,
+     "fim": 2.84
+    },
+    {
+     "palavra": "oxigênio",
+     "inicio": 2.84,
+     "fim": 3.26
+    },
+    {
+     "palavra": "reduz.",
+     "inicio": 3.26,
+     "fim": 3.74
+    },
+    {
+     "palavra": "A",
+     "inicio": 4.0,
+     "fim": 4.18
+    },
+    {
+     "palavra": "distância:",
+     "inicio": 4.18,
+     "fim": 4.62
+    },
+    {
+     "palavra": "1,92",
+     "inicio": 5.06,
+     "fim": 6.32
+    },
+    {
+     "palavra": "volt.",
+     "inicio": 6.32,
+     "fim": 6.64
+    }
+   ]
+  },
+  {
+   "id": "clarear",
+   "audio": "clarear.mp3",
+   "duracao": 7.056,
+   "palavras": [
+    {
+     "palavra": "Clarear:",
+     "inicio": 0.0,
+     "fim": 0.66
+    },
+    {
+     "palavra": "o",
+     "inicio": 1.02,
+     "fim": 1.02
+    },
+    {
+     "palavra": "alumínio",
+     "inicio": 1.02,
+     "fim": 1.5
+    },
+    {
+     "palavra": "oxida",
+     "inicio": 1.5,
+     "fim": 2.04
+    },
+    {
+     "palavra": "e",
+     "inicio": 2.04,
+     "fim": 2.56
+    },
+    {
+     "palavra": "devolve",
+     "inicio": 2.56,
+     "fim": 2.96
+    },
+    {
+     "palavra": "elétrons",
+     "inicio": 2.96,
+     "fim": 3.42
+    },
+    {
+     "palavra": "pra",
+     "inicio": 3.42,
+     "fim": 3.66
+    },
+    {
+     "palavra": "prata.",
+     "inicio": 3.66,
+     "fim": 3.98
+    },
+    {
+     "palavra": "Distância:",
+     "inicio": 4.48,
+     "fim": 4.78
+    },
+    {
+     "palavra": "0,99",
+     "inicio": 4.78,
+     "fim": 6.5
+    },
+    {
+     "palavra": "volt.",
+     "inicio": 6.5,
+     "fim": 6.8
+    }
+   ]
+  },
+  {
+   "id": "resposta",
+   "audio": "resposta.mp3",
+   "duracao": 3.648,
+   "palavras": [
+    {
+     "palavra": "Os",
+     "inicio": 0.0,
+     "fim": 0.26
+    },
+    {
+     "palavra": "dois",
+     "inicio": 0.26,
+     "fim": 0.5
+    },
+    {
+     "palavra": "positivos,",
+     "inicio": 0.5,
+     "fim": 1.18
+    },
+    {
+     "palavra": "os",
+     "inicio": 1.56,
+     "fim": 1.68
+    },
+    {
+     "palavra": "dois",
+     "inicio": 1.68,
+     "fim": 1.86
+    },
+    {
+     "palavra": "espontâneos.",
+     "inicio": 1.86,
+     "fim": 2.54
+    },
+    {
+     "palavra": "Letra",
+     "inicio": 2.98,
+     "fim": 3.16
+    },
+    {
+     "palavra": "B.",
+     "inicio": 3.16,
+     "fim": 3.38
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "audio": "cta.mp3",
+   "duracao": 4.416,
+   "palavras": [
+    {
+     "palavra": "O",
+     "inicio": 0.0,
+     "fim": 0.16
+    },
+    {
+     "palavra": "alumínio",
+     "inicio": 0.16,
+     "fim": 0.72
+    },
+    {
+     "palavra": "se",
+     "inicio": 0.72,
+     "fim": 0.98
+    },
+    {
+     "palavra": "sacrifica",
+     "inicio": 0.98,
+     "fim": 1.56
+    },
+    {
+     "palavra": "pra",
+     "inicio": 1.56,
+     "fim": 1.7
+    },
+    {
+     "palavra": "salvar",
+     "inicio": 1.7,
+     "fim": 1.94
+    },
+    {
+     "palavra": "a",
+     "inicio": 1.94,
+     "fim": 2.18
+    },
+    {
+     "palavra": "prata.",
+     "inicio": 2.18,
+     "fim": 2.4
+    },
+    {
+     "palavra": "Manda",
+     "inicio": 3.04,
+     "fim": 3.12
+    },
+    {
+     "palavra": "pra",
+     "inicio": 3.12,
+     "fim": 3.26
+    },
+    {
+     "palavra": "quem",
+     "inicio": 3.26,
+     "fim": 3.42
+    },
+    {
+     "palavra": "vai",
+     "inicio": 3.42,
+     "fim": 3.66
+    },
+    {
+     "palavra": "fazer",
+     "inicio": 3.66,
+     "fim": 3.86
+    },
+    {
+     "palavra": "o",
+     "inicio": 3.86,
+     "fim": 4.06
+    },
+    {
+     "palavra": "ENEM.",
+     "inicio": 4.06,
+     "fim": 4.18
+    }
+   ]
+  }
+ ]
+}

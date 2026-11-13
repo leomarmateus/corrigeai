@@ -1,0 +1,31 @@
+{
+  "voz": "cedar",
+  "pausa_max": 0.28,
+  "velocidade": 1.08,
+  "blocos": [
+    {"id": "hook",
+     "texto": "Papel-alumínio, água e sal: em três minutos, a prata preta volta a brilhar. E isso caiu no ENEM.",
+     "falado": "Papel-alumínio, água e sal: em três minutos, a prata preta volta a brilhar. E isso caiu no ENEM."},
+    {"id": "contexto",
+     "texto": "A prata escurece porque forma sulfeto de prata. A questão quer a voltagem de escurecer e de clarear.",
+     "falado": "A prata escurece porque forma sulfeto de prata. A questão quer a voltagem de escurecer e de clarear."},
+    {"id": "pegadinha",
+     "texto": "A pegadinha: pra igualar os elétrons, você multiplica a semirreação por dois, por três. O potencial, não! Três alternativas erradas saem desse erro.",
+     "falado": "A pegadinha: pra igualar os elétrons, você multiplica a semirreação por dois, por três. O potencial, não! Três alternativas erradas saem desse erro."},
+    {"id": "escala",
+     "texto": "Pensa no potencial como altura: alumínio embaixo, −1,68. Sulfeto de prata no meio, −0,69. Oxigênio no topo, +1,23.",
+     "falado": "Pensa no potencial como altura: alumínio embaixo, menos um vírgula sessenta e oito. Sulfeto de prata no meio, menos zero vírgula sessenta e nove. Oxigênio no topo, mais um vírgula vinte e três."},
+    {"id": "escurecer",
+     "texto": "Escurecer: a prata oxida, o oxigênio reduz. A distância: 1,92 volt.",
+     "falado": "Escurecer: a prata oxida, o oxigênio reduz. A distância: um vírgula noventa e dois volt."},
+    {"id": "clarear",
+     "texto": "Clarear: o alumínio oxida e devolve elétrons pra prata. Distância: 0,99 volt.",
+     "falado": "Clarear: o alumínio oxida e devolve elétrons pra prata. Distância: zero vírgula noventa e nove volt."},
+    {"id": "resposta",
+     "texto": "Os dois positivos, os dois espontâneos. Letra B.",
+     "falado": "Os dois positivos, os dois espontâneos. Letra B!"},
+    {"id": "cta",
+     "texto": "O alumínio se sacrifica pra salvar a prata. Manda pra quem vai fazer o ENEM.",
+     "falado": "O alumínio se sacrifica pra salvar a prata. Manda pra quem vai fazer o ENEM."}
+  ]
+}

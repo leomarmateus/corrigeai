@@ -1,5 +1,5 @@
 {
-  "voz": "marin",
+  "voz": "cedar",
   "pausa_max": 0.3,
   "blocos": [
     { "id": "hook", "texto": "…", "falado": "…" }

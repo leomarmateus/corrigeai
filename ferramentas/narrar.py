@@ -28,9 +28,9 @@ MODELO_TTS = "gpt-4o-mini-tts-2025-12-15"
 MODELO_STT = "whisper-1"  # único com timestamps por palavra
 INSTRUCOES_PADRAO = (
     "Fale em português do Brasil, sotaque brasileiro neutro. "
-    "Tom de professor jovem e animado explicando para um amigo, ritmo ágil de vídeo curto, "
-    "frases com energia, pausas curtas antes da resposta. Pronuncie fórmulas químicas letra a letra "
-    "como um professor brasileiro faria."
+    "Tom de professor jovem e animado explicando para um amigo, ritmo RÁPIDO de Reels, "
+    "frases com energia e sem pausas longas entre elas; só uma pausa curta antes da resposta final. "
+    "Números com vírgula lidos como no Brasil (um vírgula vinte e três)."
 )
 
 
@@ -76,14 +76,37 @@ def transcrever(audio: Path) -> list[dict]:
         return json.load(r)["words"]
 
 
-def encurtar_pausas(audio: Path, pausa_max: float) -> None:
-    """Corta silêncios longos do TTS (ritmo de vídeo curto), mantendo `pausa_max` s de cada um."""
-    tmp = audio.with_suffix(".tmp.mp3")
-    filtro = (f"silenceremove=stop_periods=-1:stop_duration={pausa_max}:stop_threshold=-45dB"
-              f":stop_silence={pausa_max}")
-    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(audio), "-af", filtro, "-c:a", "libmp3lame",
-                    "-q:a", "2", str(tmp)], check=True)
-    tmp.replace(audio)
+def silencios(audio: Path, limiar_db: float, minimo: float) -> list[tuple[float, float]]:
+    log = subprocess.run(["ffmpeg", "-hide_banner", "-i", str(audio), "-af",
+                          f"silencedetect=n={limiar_db}dB:d={minimo}", "-f", "null", "-"],
+                         capture_output=True, text=True).stderr
+    ini = [float(x) for x in re.findall(r"silence_start: ([\d.]+)", log)]
+    fim = [float(x) for x in re.findall(r"silence_end: ([\d.]+)", log)]
+    return list(zip(ini, fim))
+
+
+def ajustar_ritmo(audio: Path, pausa_max: float, velocidade: float) -> None:
+    """Acelera a fala (atempo, sem mudar o tom) e encurta cada silêncio para no máximo `pausa_max` s.
+    Silêncio do começo é cortado inteiro; o do fim fica com 0,1 s."""
+    tmp = audio.with_suffix(".tmp.wav")
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(audio), "-af", f"atempo={velocidade}",
+                    str(tmp)], check=True)
+    cortes = []
+    total = duracao(tmp)
+    for s, e in silencios(tmp, -40, 0.12):
+        if s <= 0.02:
+            cortes.append((0.0, max(0.0, e - 0.03)))
+        elif e >= total - 0.02:
+            cortes.append((s + 0.1, total + 1))
+        elif e - s > pausa_max:
+            cortes.append((s + pausa_max / 2, e - pausa_max / 2))
+    filtro = "anull"
+    if cortes:
+        expr = "+".join(f"between(t,{a:.3f},{b:.3f})" for a, b in cortes)
+        filtro = f"aselect='not({expr})',asetpts=N/SR/TB"
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(tmp), "-af", filtro, "-c:a", "libmp3lame",
+                    "-q:a", "2", str(audio)], check=True)
+    tmp.unlink()
 
 
 def duracao(audio: Path) -> float:
@@ -133,7 +156,7 @@ def main() -> None:
     args = ap.parse_args()
     pasta = args.pasta.resolve()
     cfg = json.loads((pasta / "narracao" / "falas.json").read_text())
-    voz = args.voz or cfg.get("voz", "marin")
+    voz = args.voz or cfg.get("voz", "cedar")
     instrucoes = cfg.get("instrucoes", INSTRUCOES_PADRAO)
     saida = {"voz": voz, "modelo": MODELO_TTS, "blocos": []}
     for bloco in cfg["blocos"]:
@@ -141,7 +164,7 @@ def main() -> None:
         if not args.so_alinhar or not mp3.exists():
             print(f"[tts] {bloco['id']} ({voz})", flush=True)
             tts(bloco.get("falado", bloco["texto"]), voz, instrucoes, mp3)
-            encurtar_pausas(mp3, cfg.get("pausa_max", 0.3))
+            ajustar_ritmo(mp3, cfg.get("pausa_max", 0.3), cfg.get("velocidade", 1.0))
         dur = duracao(mp3)
         palavras = alinhar(bloco["texto"], transcrever(mp3), dur)
         saida["blocos"].append({"id": bloco["id"], "audio": mp3.name, "duracao": round(dur, 3),

@@ -2,6 +2,7 @@
 //   node ferramentas/render.mjs <pasta-ou-id> [--guia]
 import fs from "node:fs";
 import path from "node:path";
+import { execFileSync } from "node:child_process";
 import { renderMedia } from "@remotion/renderer";
 import { preparar, idDaPasta, RAIZ } from "./remotion.mjs";
 
@@ -23,4 +24,10 @@ await renderMedia({
     if (p !== ultimo) { ultimo = p; process.stdout.write(`${p * 10}% `); }
   },
 });
+// volume no padrão de redes (−14 LUFS, pico −1,5 dBTP); vídeo copiado sem recodificar
+const bruto = saida.replace(/\.mp4$/, ".bruto.mp4");
+fs.renameSync(saida, bruto);
+execFileSync("ffmpeg", ["-y", "-v", "error", "-i", bruto, "-c:v", "copy", "-af", "loudnorm=I=-14:TP=-1.5:LRA=11",
+  "-ar", "48000", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", saida]);
+fs.rmSync(bruto);
 console.log("\n" + saida);
