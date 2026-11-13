@@ -1,0 +1,202 @@
+{
+ "voz": "marin",
+ "modelo": "gpt-4o-mini-tts-2025-12-15",
+ "blocos": [
+  {
+   "id": "hook",
+   "audio": "hook.mp3",
+   "duracao": 4.752,
+   "palavras": [
+    {
+     "palavra": "Noventa",
+     "inicio": 0.0,
+     "fim": 0.447
+    },
+    {
+     "palavra": "por",
+     "inicio": 0.447,
+     "fim": 0.893
+    },
+    {
+     "palavra": "cento",
+     "inicio": 0.893,
+     "fim": 1.34
+    },
+    {
+     "palavra": "dos",
+     "inicio": 1.34,
+     "fim": 1.72
+    },
+    {
+     "palavra": "candidatos",
+     "inicio": 1.72,
+     "fim": 2.34
+    },
+    {
+     "palavra": "erraram",
+     "inicio": 2.34,
+     "fim": 3.0
+    },
+    {
+     "palavra": "essa",
+     "inicio": 3.0,
+     "fim": 3.32
+    },
+    {
+     "palavra": "questão",
+     "inicio": 3.32,
+     "fim": 3.72
+    },
+    {
+     "palavra": "do",
+     "inicio": 3.72,
+     "fim": 4.0
+    },
+    {
+     "palavra": "ENEM.",
+     "inicio": 4.0,
+     "fim": 4.2
+    }
+   ]
+  },
+  {
+   "id": "meio",
+   "audio": "meio.mp3",
+   "duracao": 8.472,
+   "palavras": [
+    {
+     "palavra": "E",
+     "inicio": 0.0,
+     "fim": 0.4
+    },
+    {
+     "palavra": "o",
+     "inicio": 0.4,
+     "fim": 0.68
+    },
+    {
+     "palavra": "motivo",
+     "inicio": 0.68,
+     "fim": 1.24
+    },
+    {
+     "palavra": "está",
+     "inicio": 1.24,
+     "fim": 1.82
+    },
+    {
+     "palavra": "em",
+     "inicio": 1.82,
+     "fim": 2.16
+    },
+    {
+     "palavra": "toda",
+     "inicio": 2.16,
+     "fim": 2.4
+    },
+    {
+     "palavra": "garrafa",
+     "inicio": 2.68,
+     "fim": 3.06
+    },
+    {
+     "palavra": "de",
+     "inicio": 3.06,
+     "fim": 3.32
+    },
+    {
+     "palavra": "refrigerante.",
+     "inicio": 3.32,
+     "fim": 3.88
+    },
+    {
+     "palavra": "Quando",
+     "inicio": 4.58,
+     "fim": 4.82
+    },
+    {
+     "palavra": "o",
+     "inicio": 4.82,
+     "fim": 5.12
+    },
+    {
+     "palavra": "CO₂",
+     "inicio": 5.12,
+     "fim": 5.5
+    },
+    {
+     "palavra": "escapa,",
+     "inicio": 5.5,
+     "fim": 6.02
+    },
+    {
+     "palavra": "o",
+     "inicio": 6.5,
+     "fim": 6.84
+    },
+    {
+     "palavra": "equilíbrio",
+     "inicio": 6.84,
+     "fim": 7.12
+    },
+    {
+     "palavra": "se",
+     "inicio": 7.12,
+     "fim": 7.8
+    },
+    {
+     "palavra": "desloca.",
+     "inicio": 7.8,
+     "fim": 8.14
+    }
+   ]
+  },
+  {
+   "id": "fim",
+   "audio": "fim.mp3",
+   "duracao": 3.6,
+   "palavras": [
+    {
+     "palavra": "Então",
+     "inicio": 0.0,
+     "fim": 0.58
+    },
+    {
+     "palavra": "a",
+     "inicio": 0.8,
+     "fim": 1.28
+    },
+    {
+     "palavra": "resposta",
+     "inicio": 1.28,
+     "fim": 1.54
+    },
+    {
+     "palavra": "certa",
+     "inicio": 1.54,
+     "fim": 2.04
+    },
+    {
+     "palavra": "é",
+     "inicio": 2.04,
+     "fim": 2.44
+    },
+    {
+     "palavra": "a",
+     "inicio": 2.44,
+     "fim": 2.8
+    },
+    {
+     "palavra": "letra",
+     "inicio": 2.8,
+     "fim": 2.92
+    },
+    {
+     "palavra": "D.",
+     "inicio": 2.92,
+     "fim": 3.34
+    }
+   ]
+  }
+ ]
+}

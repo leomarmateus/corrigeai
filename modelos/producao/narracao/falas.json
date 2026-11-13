@@ -1,0 +1,7 @@
+{
+  "voz": "marin",
+  "pausa_max": 0.3,
+  "blocos": [
+    { "id": "hook", "texto": "…", "falado": "…" }
+  ]
+}

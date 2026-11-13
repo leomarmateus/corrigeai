@@ -1,0 +1,11 @@
+{
+  "voz": "marin",
+  "blocos": [
+    {"id": "hook", "texto": "Noventa por cento dos candidatos erraram essa questão do ENEM.",
+     "falado": "Noventa por cento dos candidatos erraram essa questão do ENEM."},
+    {"id": "meio", "texto": "E o motivo está em toda garrafa de refrigerante. Quando o CO₂ escapa, o equilíbrio se desloca.",
+     "falado": "E o motivo está em toda garrafa de refrigerante. Quando o CO dois escapa, o equilíbrio se desloca."},
+    {"id": "fim", "texto": "Então a resposta certa é a letra D.",
+     "falado": "Então a resposta certa é a letra D."}
+  ]
+}

@@ -1,0 +1,7 @@
+node_modules/
+.env
+out/
+out-folha-*/
+**/saida/*.mp4
+**/narracao/*.wav
+*.log
