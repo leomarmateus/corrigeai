@@ -1,7 +1,7 @@
 // ENEM 2025 · Q126 · prata + papel-alumínio (eletroquímica). Gabarito: B.
 import React from "react";
 import { AbsoluteFill, useCurrentFrame, useVideoConfig } from "remotion";
-import { tema } from "../../../../motor/tema";
+import { tema, corDaBanca } from "../../../../motor/tema";
 import { ZONA } from "../../../../motor/zona";
 import { Legenda } from "../../../../motor/Legenda";
 import { Formula } from "../../../../motor/Formula";
@@ -118,7 +118,7 @@ export const Cena: React.FC<{ guia?: boolean }> = ({ guia = false }) => {
   return (
     <AbsoluteFill style={{ background: `radial-gradient(120% 70% at 50% 35%, #1B2230 0%, ${tema.cor.fundo} 70%)`,
       fontFamily: tema.fonte, color: tema.cor.texto }}>
-      <Cabecalho prova="ENEM 2025 · Q126" materia="Química" entrada={e(T.enem - 0.1)} />
+      <Cabecalho prova="ENEM 2025 · Q126" materia="Química" cor={corDaBanca("ENEM")} entrada={e(T.enem - 0.1)} />
 
       {/* cena 1 */}
       {c1 > 0 && (
@@ -257,3 +257,5 @@ export const Cena: React.FC<{ guia?: boolean }> = ({ guia = false }) => {
     </AbsoluteFill>
   );
 };
+
+export { Capa } from "./capa";

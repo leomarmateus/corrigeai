@@ -23,3 +23,12 @@ export const tema = {
     acento: "#5B8CFF",
   },
 } as const;
+
+// Cor do selo de cada banca (capa e cabeçalho). Banca nova cai no destaque padrão.
+const CORES_BANCA: Record<string, string> = {
+  ENEM: "#FFD23F",
+  UFRGS: "#5B8CFF",
+  FUVEST: "#FF8A3D",
+  UNICAMP: "#FF5D8F",
+};
+export const corDaBanca = (banca: string) => CORES_BANCA[banca.toUpperCase()] ?? tema.cor.destaque;

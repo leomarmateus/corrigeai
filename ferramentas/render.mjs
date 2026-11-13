@@ -5,6 +5,7 @@ import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { renderMedia } from "@remotion/renderer";
 import { preparar, idDaPasta, RAIZ } from "./remotion.mjs";
+import { renderizarCapa } from "./capa.mjs";
 
 const args = process.argv.slice(2);
 const alvo = args[0];
@@ -31,3 +32,5 @@ execFileSync("ffmpeg", ["-y", "-v", "error", "-i", bruto, "-c:v", "copy", "-af",
   "-ar", "48000", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", saida]);
 fs.rmSync(bruto);
 console.log("\n" + saida);
+// toda produção sai com capa
+console.log(await renderizarCapa(alvo, { serveUrl }));

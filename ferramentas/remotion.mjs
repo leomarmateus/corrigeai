@@ -5,8 +5,8 @@ import { selectComposition } from "@remotion/renderer";
 
 export const RAIZ = path.resolve(path.dirname(new URL(import.meta.url).pathname), "..");
 
-export async function preparar(id, inputProps = {}) {
-  const serveUrl = await bundle({ entryPoint: path.join(RAIZ, "motor/index.ts") });
+export async function preparar(id, inputProps = {}, serveUrlPronto) {
+  const serveUrl = serveUrlPronto ?? (await bundle({ entryPoint: path.join(RAIZ, "motor/index.ts") }));
   const composition = await selectComposition({ serveUrl, id, inputProps });
   return { serveUrl, composition };
 }

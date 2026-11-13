@@ -11,7 +11,8 @@ motor/                 componentes comuns (Remotion): legenda, fórmula, narraç
 ferramentas/
   narrar.py            falas.json -> mp3 por bloco + tempos.json (tempo de cada palavra)
   folha.mjs            folha de contato (N quadros numa imagem) para revisar sem renderizar
-  render.mjs           MP4 final 1080×1920, 30 fps
+  render.mjs           MP4 final 1080×1920, 30 fps, −14 LUFS + capa
+  capa.mjs             só a capa: saida/capa.png e saida/capa-grade.png (recorte 3:4 do perfil)
 modelos/producao/      esqueleto copiado para cada produção nova
 marca/MARCA.md         identidade (nome, cores, fontes, tom); ler antes de cada produção
 referencias/hooks.md   padrões de hook levantados (educação + virais)
@@ -31,11 +32,14 @@ Domínios: `enem`, `ufrgs`, `concursos/<a definir>`. Matérias: `matematica`,
 3. **Narração** → `narracao/falas.json` (um bloco por trecho; `texto` = como aparece na legenda,
    `falado` = como o TTS deve ler, ex.: "CO₂" × "CO dois") e então
    `python3 ferramentas/narrar.py producoes/...`
-4. **Cena** → `cena.tsx` (exporta `Cena` e `duracao`) + registrar em `motor/producoes.ts`.
+4. **Cena** → `cena.tsx` (exporta `Cena`, `duracao` e `Capa`) + registrar em `motor/producoes.ts`.
+   **Capa obrigatória** (`capa.tsx`, componente `motor/Capa.tsx`): banca + ano em destaque, questão e matéria,
+   a pergunta (com *destaque*), uma linha do que a questão pede e um visual parado da cena. Tudo que importa
+   dentro do recorte 3:4 da grade do perfil (y 240–1680); `npm run capa -- <pasta> --guia` mostra os recortes.
    Animações ancoradas na fala com `marcaTexto(linha, "bloco", "trecho")`.
 5. **Revisão rápida** → `npm run folha -- producoes/... --guia` (quadros + zona segura).
-6. **Render** → `npm run render -- producoes/...` → `saida/reel.mp4`.
-   **Aprovação humana do vídeo.** Depois: capa e `post.txt`.
+6. **Render** → `npm run render -- producoes/...` → `saida/reel.mp4` + `saida/capa.png`.
+   **Aprovação humana do vídeo e da capa.** Depois: `post.txt`.
 
 `npm run studio` abre o Remotion Studio para ajustar ao vivo. `npm run tipos` checa o TypeScript.
 

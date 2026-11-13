@@ -14,7 +14,9 @@ export const Colher: React.FC<{
   eletrons?: number;
   corrosao?: number;
   largura?: number;
-}> = ({ t, sujeira, brilho = -1, bandeja = 1, eletrons = 0, corrosao = 0, largura = 860 }) => {
+  /** sujeira só à direita deste x (0–800): colher meio limpa, meio preta */
+  sujeiraDesde?: number;
+}> = ({ t, sujeira, brilho = -1, bandeja = 1, eletrons = 0, corrosao = 0, largura = 860, sujeiraDesde = 0 }) => {
   const faixaX = -200 + brilho * 1200;
   return (
     <svg viewBox="0 0 800 330" width={largura} height={(largura * 330) / 800} style={{ overflow: "visible" }}>
@@ -71,10 +73,11 @@ export const Colher: React.FC<{
       <g>
         <path d={CABO} fill="url(#prata)" stroke="#7D8691" strokeWidth="2" />
         <ellipse cx="170" cy="130" rx="150" ry="95" fill="url(#concha)" stroke="#7D8691" strokeWidth="2" />
-        <ellipse cx="150" cy="105" rx="70" ry="30" fill="#fff" opacity={0.55 * (1 - sujeira)} />
+        <ellipse cx="150" cy="105" rx="70" ry="30" fill="#fff" opacity={sujeiraDesde > 0 ? 0.55 : 0.55 * (1 - sujeira)} />
         <g clipPath="url(#formaColher)">
-          <rect x="0" y="0" width="800" height="260" fill="#3A2C1E" opacity={0.85 * sujeira} />
-          <rect x="0" y="0" width="800" height="260" fill="#000" filter="url(#manchas)" opacity={sujeira} />
+          <rect x={sujeiraDesde} y="0" width={800 - sujeiraDesde} height="260" fill="#3A2C1E" opacity={0.85 * sujeira} />
+          <rect x={sujeiraDesde} y="0" width={800 - sujeiraDesde} height="260" fill="#000" filter="url(#manchas)"
+            opacity={sujeira} />
           {brilho >= 0 && brilho <= 1 && (
             <rect x={faixaX} y="-40" width="160" height="340" fill="url(#faixa)" transform={`skewX(-20)`} />
           )}
