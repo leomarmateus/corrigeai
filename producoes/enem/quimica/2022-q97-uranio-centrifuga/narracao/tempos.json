@@ -1,0 +1,735 @@
+{
+ "voz": "cedar",
+ "modelo": "gpt-4o-mini-tts-2025-12-15",
+ "blocos": [
+  {
+   "id": "hook",
+   "audio": "hook.mp3",
+   "duracao": 9.624,
+   "palavras": [
+    {
+     "palavra": "Em",
+     "inicio": 0.0,
+     "fim": 0.24
+    },
+    {
+     "palavra": "2010,",
+     "inicio": 0.24,
+     "fim": 1.4
+    },
+    {
+     "palavra": "um",
+     "inicio": 1.84,
+     "fim": 2.02
+    },
+    {
+     "palavra": "vírus",
+     "inicio": 2.02,
+     "fim": 2.28
+    },
+    {
+     "palavra": "de",
+     "inicio": 2.28,
+     "fim": 2.48
+    },
+    {
+     "palavra": "computador",
+     "inicio": 2.48,
+     "fim": 2.92
+    },
+    {
+     "palavra": "destruiu",
+     "inicio": 2.92,
+     "fim": 3.7
+    },
+    {
+     "palavra": "cerca",
+     "inicio": 3.7,
+     "fim": 4.04
+    },
+    {
+     "palavra": "de",
+     "inicio": 4.04,
+     "fim": 4.34
+    },
+    {
+     "palavra": "mil",
+     "inicio": 4.34,
+     "fim": 4.5
+    },
+    {
+     "palavra": "máquinas",
+     "inicio": 4.5,
+     "fim": 4.9
+    },
+    {
+     "palavra": "no",
+     "inicio": 4.9,
+     "fim": 5.08
+    },
+    {
+     "palavra": "Irã.",
+     "inicio": 5.08,
+     "fim": 5.38
+    },
+    {
+     "palavra": "Não",
+     "inicio": 5.64,
+     "fim": 5.66
+    },
+    {
+     "palavra": "eram",
+     "inicio": 5.66,
+     "fim": 5.88
+    },
+    {
+     "palavra": "computadores:",
+     "inicio": 5.88,
+     "fim": 6.36
+    },
+    {
+     "palavra": "eram",
+     "inicio": 6.86,
+     "fim": 6.98
+    },
+    {
+     "palavra": "centrífugas",
+     "inicio": 6.98,
+     "fim": 7.62
+    },
+    {
+     "palavra": "de",
+     "inicio": 7.62,
+     "fim": 7.86
+    },
+    {
+     "palavra": "urânio.",
+     "inicio": 7.86,
+     "fim": 8.08
+    },
+    {
+     "palavra": "E",
+     "inicio": 8.38,
+     "fim": 8.44
+    },
+    {
+     "palavra": "elas",
+     "inicio": 8.44,
+     "fim": 8.78
+    },
+    {
+     "palavra": "caíram",
+     "inicio": 8.78,
+     "fim": 9.02
+    },
+    {
+     "palavra": "no",
+     "inicio": 9.02,
+     "fim": 9.2
+    },
+    {
+     "palavra": "ENEM.",
+     "inicio": 9.2,
+     "fim": 9.4
+    }
+   ]
+  },
+  {
+   "id": "enriquecer",
+   "audio": "enriquecer.mp3",
+   "duracao": 8.16,
+   "palavras": [
+    {
+     "palavra": "Pra",
+     "inicio": 0.0,
+     "fim": 0.22
+    },
+    {
+     "palavra": "virar",
+     "inicio": 0.22,
+     "fim": 0.84
+    },
+    {
+     "palavra": "combustível,",
+     "inicio": 0.84,
+     "fim": 1.44
+    },
+    {
+     "palavra": "o",
+     "inicio": 1.92,
+     "fim": 2.12
+    },
+    {
+     "palavra": "urânio",
+     "inicio": 2.12,
+     "fim": 2.22
+    },
+    {
+     "palavra": "precisa",
+     "inicio": 2.22,
+     "fim": 2.62
+    },
+    {
+     "palavra": "de",
+     "inicio": 2.62,
+     "fim": 2.84
+    },
+    {
+     "palavra": "mais",
+     "inicio": 2.84,
+     "fim": 3.14
+    },
+    {
+     "palavra": "urânio-235:",
+     "inicio": 3.14,
+     "fim": 4.62
+    },
+    {
+     "palavra": "de",
+     "inicio": 4.82,
+     "fim": 5.28
+    },
+    {
+     "palavra": "0,7%",
+     "inicio": 5.28,
+     "fim": 6.24
+    },
+    {
+     "palavra": "pra",
+     "inicio": 6.24,
+     "fim": 7.2
+    },
+    {
+     "palavra": "3%.",
+     "inicio": 7.2,
+     "fim": 7.98
+    }
+   ]
+  },
+  {
+   "id": "massa",
+   "audio": "massa.mp3",
+   "duracao": 12.096,
+   "palavras": [
+    {
+     "palavra": "Só",
+     "inicio": 0.0,
+     "fim": 0.48
+    },
+    {
+     "palavra": "que",
+     "inicio": 0.48,
+     "fim": 0.92
+    },
+    {
+     "palavra": "o",
+     "inicio": 0.92,
+     "fim": 1.14
+    },
+    {
+     "palavra": "235",
+     "inicio": 1.14,
+     "fim": 2.42
+    },
+    {
+     "palavra": "e",
+     "inicio": 2.42,
+     "fim": 2.7
+    },
+    {
+     "palavra": "o",
+     "inicio": 2.7,
+     "fim": 3.32
+    },
+    {
+     "palavra": "238",
+     "inicio": 3.32,
+     "fim": 3.92
+    },
+    {
+     "palavra": "têm",
+     "inicio": 3.92,
+     "fim": 4.3
+    },
+    {
+     "palavra": "a",
+     "inicio": 4.3,
+     "fim": 4.64
+    },
+    {
+     "palavra": "mesma",
+     "inicio": 4.64,
+     "fim": 4.72
+    },
+    {
+     "palavra": "química.",
+     "inicio": 4.72,
+     "fim": 5.08
+    },
+    {
+     "palavra": "A",
+     "inicio": 5.46,
+     "fim": 5.46
+    },
+    {
+     "palavra": "única",
+     "inicio": 5.46,
+     "fim": 5.68
+    },
+    {
+     "palavra": "diferença",
+     "inicio": 5.68,
+     "fim": 6.18
+    },
+    {
+     "palavra": "é",
+     "inicio": 6.18,
+     "fim": 6.54
+    },
+    {
+     "palavra": "a",
+     "inicio": 6.54,
+     "fim": 6.98
+    },
+    {
+     "palavra": "massa:",
+     "inicio": 6.98,
+     "fim": 6.98
+    },
+    {
+     "palavra": "349",
+     "inicio": 7.58,
+     "fim": 8.7
+    },
+    {
+     "palavra": "contra",
+     "inicio": 8.7,
+     "fim": 9.22
+    },
+    {
+     "palavra": "352.",
+     "inicio": 9.22,
+     "fim": 10.54
+    },
+    {
+     "palavra": "Menos",
+     "inicio": 11.04,
+     "fim": 11.18
+    },
+    {
+     "palavra": "de",
+     "inicio": 11.18,
+     "fim": 11.36
+    },
+    {
+     "palavra": "um",
+     "inicio": 11.36,
+     "fim": 11.527
+    },
+    {
+     "palavra": "por",
+     "inicio": 11.527,
+     "fim": 11.693
+    },
+    {
+     "palavra": "cento.",
+     "inicio": 11.693,
+     "fim": 11.86
+    }
+   ]
+  },
+  {
+   "id": "efusao",
+   "audio": "efusao.mp3",
+   "duracao": 10.56,
+   "palavras": [
+    {
+     "palavra": "Nos",
+     "inicio": 0.0,
+     "fim": 0.14
+    },
+    {
+     "palavra": "anos",
+     "inicio": 0.14,
+     "fim": 0.36
+    },
+    {
+     "palavra": "40,",
+     "inicio": 0.36,
+     "fim": 0.88
+    },
+    {
+     "palavra": "os",
+     "inicio": 1.32,
+     "fim": 1.4
+    },
+    {
+     "palavra": "Estados",
+     "inicio": 1.4,
+     "fim": 1.7
+    },
+    {
+     "palavra": "Unidos",
+     "inicio": 1.7,
+     "fim": 2.04
+    },
+    {
+     "palavra": "separaram",
+     "inicio": 2.04,
+     "fim": 2.58
+    },
+    {
+     "palavra": "por",
+     "inicio": 2.58,
+     "fim": 2.86
+    },
+    {
+     "palavra": "efusão:",
+     "inicio": 2.86,
+     "fim": 3.28
+    },
+    {
+     "palavra": "o",
+     "inicio": 3.76,
+     "fim": 3.96
+    },
+    {
+     "palavra": "gás",
+     "inicio": 3.96,
+     "fim": 3.98
+    },
+    {
+     "palavra": "atravessa",
+     "inicio": 3.98,
+     "fim": 4.48
+    },
+    {
+     "palavra": "barreiras",
+     "inicio": 4.48,
+     "fim": 4.86
+    },
+    {
+     "palavra": "porosas",
+     "inicio": 4.86,
+     "fim": 5.46
+    },
+    {
+     "palavra": "milhares",
+     "inicio": 5.46,
+     "fim": 6.1
+    },
+    {
+     "palavra": "de",
+     "inicio": 6.1,
+     "fim": 6.66
+    },
+    {
+     "palavra": "vezes.",
+     "inicio": 6.66,
+     "fim": 6.66
+    },
+    {
+     "palavra": "A",
+     "inicio": 7.06,
+     "fim": 7.14
+    },
+    {
+     "palavra": "fábrica,",
+     "inicio": 7.14,
+     "fim": 7.46
+    },
+    {
+     "palavra": "a",
+     "inicio": 7.76,
+     "fim": 7.98
+    },
+    {
+     "palavra": "K-25,",
+     "inicio": 7.98,
+     "fim": 8.58
+    },
+    {
+     "palavra": "foi",
+     "inicio": 9.08,
+     "fim": 9.12
+    },
+    {
+     "palavra": "o",
+     "inicio": 9.12,
+     "fim": 9.4
+    },
+    {
+     "palavra": "maior",
+     "inicio": 9.4,
+     "fim": 9.62
+    },
+    {
+     "palavra": "prédio",
+     "inicio": 9.62,
+     "fim": 9.92
+    },
+    {
+     "palavra": "do",
+     "inicio": 9.92,
+     "fim": 10.28
+    },
+    {
+     "palavra": "mundo.",
+     "inicio": 10.28,
+     "fim": 10.28
+    }
+   ]
+  },
+  {
+   "id": "eliminar",
+   "audio": "eliminar.mp3",
+   "duracao": 7.824,
+   "palavras": [
+    {
+     "palavra": "Peneira?",
+     "inicio": 0.0,
+     "fim": 0.48
+    },
+    {
+     "palavra": "Mesmo",
+     "inicio": 1.0,
+     "fim": 1.1
+    },
+    {
+     "palavra": "tamanho.",
+     "inicio": 1.1,
+     "fim": 1.52
+    },
+    {
+     "palavra": "Solvente?",
+     "inicio": 2.04,
+     "fim": 2.38
+    },
+    {
+     "palavra": "Mesma",
+     "inicio": 2.9,
+     "fim": 3.0
+    },
+    {
+     "palavra": "química.",
+     "inicio": 3.0,
+     "fim": 3.42
+    },
+    {
+     "palavra": "Destilação?",
+     "inicio": 3.96,
+     "fim": 4.3
+    },
+    {
+     "palavra": "Mesma",
+     "inicio": 4.88,
+     "fim": 5.0
+    },
+    {
+     "palavra": "ebulição.",
+     "inicio": 5.0,
+     "fim": 5.54
+    },
+    {
+     "palavra": "Ímã?",
+     "inicio": 6.06,
+     "fim": 6.14
+    },
+    {
+     "palavra": "Não",
+     "inicio": 6.62,
+     "fim": 6.7
+    },
+    {
+     "palavra": "distingue",
+     "inicio": 6.7,
+     "fim": 7.12
+    },
+    {
+     "palavra": "isótopos.",
+     "inicio": 7.12,
+     "fim": 7.64
+    }
+   ]
+  },
+  {
+   "id": "resposta",
+   "audio": "resposta.mp3",
+   "duracao": 5.688,
+   "palavras": [
+    {
+     "palavra": "Sobra",
+     "inicio": 0.0,
+     "fim": 0.5
+    },
+    {
+     "palavra": "a",
+     "inicio": 0.5,
+     "fim": 0.84
+    },
+    {
+     "palavra": "centrifugação:",
+     "inicio": 0.84,
+     "fim": 1.46
+    },
+    {
+     "palavra": "girando",
+     "inicio": 1.98,
+     "fim": 2.2
+    },
+    {
+     "palavra": "muito",
+     "inicio": 2.2,
+     "fim": 2.54
+    },
+    {
+     "palavra": "rápido,",
+     "inicio": 2.54,
+     "fim": 2.8
+    },
+    {
+     "palavra": "o",
+     "inicio": 3.26,
+     "fim": 3.34
+    },
+    {
+     "palavra": "mais",
+     "inicio": 3.34,
+     "fim": 3.54
+    },
+    {
+     "palavra": "pesado",
+     "inicio": 3.54,
+     "fim": 3.92
+    },
+    {
+     "palavra": "vai",
+     "inicio": 3.92,
+     "fim": 4.28
+    },
+    {
+     "palavra": "pra",
+     "inicio": 4.28,
+     "fim": 4.66
+    },
+    {
+     "palavra": "parede.",
+     "inicio": 4.66,
+     "fim": 4.92
+    },
+    {
+     "palavra": "Letra",
+     "inicio": 5.18,
+     "fim": 5.36
+    },
+    {
+     "palavra": "B.",
+     "inicio": 5.36,
+     "fim": 5.46
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "audio": "cta.mp3",
+   "duracao": 6.552,
+   "palavras": [
+    {
+     "palavra": "E",
+     "inicio": 0.0,
+     "fim": 0.06
+    },
+    {
+     "palavra": "o",
+     "inicio": 0.06,
+     "fim": 0.2
+    },
+    {
+     "palavra": "Brasil",
+     "inicio": 0.2,
+     "fim": 0.56
+    },
+    {
+     "palavra": "enriquece",
+     "inicio": 0.56,
+     "fim": 1.18
+    },
+    {
+     "palavra": "urânio",
+     "inicio": 1.18,
+     "fim": 1.58
+    },
+    {
+     "palavra": "com",
+     "inicio": 1.58,
+     "fim": 1.78
+    },
+    {
+     "palavra": "centrífugas",
+     "inicio": 1.78,
+     "fim": 2.42
+    },
+    {
+     "palavra": "desenvolvidas",
+     "inicio": 2.42,
+     "fim": 3.1
+    },
+    {
+     "palavra": "pela",
+     "inicio": 3.1,
+     "fim": 3.28
+    },
+    {
+     "palavra": "Marinha,",
+     "inicio": 3.28,
+     "fim": 3.74
+    },
+    {
+     "palavra": "em",
+     "inicio": 3.74,
+     "fim": 4.1
+    },
+    {
+     "palavra": "Resende.",
+     "inicio": 4.1,
+     "fim": 4.48
+    },
+    {
+     "palavra": "Manda",
+     "inicio": 5.12,
+     "fim": 5.14
+    },
+    {
+     "palavra": "pra",
+     "inicio": 5.14,
+     "fim": 5.3
+    },
+    {
+     "palavra": "quem",
+     "inicio": 5.3,
+     "fim": 5.46
+    },
+    {
+     "palavra": "vai",
+     "inicio": 5.46,
+     "fim": 5.68
+    },
+    {
+     "palavra": "fazer",
+     "inicio": 5.68,
+     "fim": 5.9
+    },
+    {
+     "palavra": "o",
+     "inicio": 5.9,
+     "fim": 6.12
+    },
+    {
+     "palavra": "ENEM.",
+     "inicio": 6.12,
+     "fim": 6.28
+    }
+   ]
+  }
+ ]
+}

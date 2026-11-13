@@ -53,7 +53,7 @@ export const Alternativas: React.FC<{
           </span>
           <span style={{ whiteSpace: "nowrap" }}>{it.texto}</span>
           {e.nota && riscada > 0.5 && (
-            <span style={{ marginLeft: "auto", fontSize: tamanho * 0.7, color: tema.cor.errado, position: "relative", zIndex: 1, background: tema.cor.fundo2, padding: "0 8px", fontWeight: 800,
+            <span style={{ marginLeft: "auto", fontSize: tamanho * 0.7, color: tema.cor.errado, position: "relative", zIndex: 1, background: tema.cor.fundo2, padding: "0 8px", whiteSpace: "nowrap", fontWeight: 800,
               opacity: (riscada - 0.5) * 2 }}>{e.nota}</span>
           )}
           {riscada > 0 && (

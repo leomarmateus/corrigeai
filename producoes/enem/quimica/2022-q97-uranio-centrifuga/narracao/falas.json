@@ -1,0 +1,28 @@
+{
+  "voz": "cedar",
+  "pausa_max": 0.28,
+  "velocidade": 1.1,
+  "blocos": [
+    {"id": "hook",
+     "texto": "Em 2010, um vírus de computador destruiu cerca de mil máquinas no Irã. Não eram computadores: eram centrífugas de urânio. E elas caíram no ENEM.",
+     "falado": "Em dois mil e dez, um vírus de computador destruiu cerca de mil máquinas no Irã. Não eram computadores: eram centrífugas de urânio. E elas caíram no ENEM."},
+    {"id": "enriquecer",
+     "texto": "Pra virar combustível, o urânio precisa de mais urânio-235: de 0,7% pra 3%.",
+     "falado": "Pra virar combustível, o urânio precisa de mais urânio duzentos e trinta e cinco: de zero vírgula sete por cento, pra três por cento."},
+    {"id": "massa",
+     "texto": "Só que o 235 e o 238 têm a mesma química. A única diferença é a massa: 349 contra 352. Menos de um por cento.",
+     "falado": "Só que o duzentos e trinta e cinco e o duzentos e trinta e oito têm a mesma química. A única diferença é a massa: trezentos e quarenta e nove contra trezentos e cinquenta e dois. Menos de um por cento."},
+    {"id": "efusao",
+     "texto": "Nos anos 40, os Estados Unidos separaram por efusão: o gás atravessa barreiras porosas milhares de vezes. A fábrica, a K-25, foi o maior prédio do mundo.",
+     "falado": "Nos anos quarenta, os Estados Unidos separaram por efusão: o gás atravessa barreiras porosas milhares de vezes. A fábrica, a K vinte e cinco, foi o maior prédio do mundo."},
+    {"id": "eliminar",
+     "texto": "Peneira? Mesmo tamanho. Solvente? Mesma química. Destilação? Mesma ebulição. Ímã? Não distingue isótopos.",
+     "falado": "Peneira? Mesmo tamanho. Solvente? Mesma química. Destilação? Mesma ebulição. Ímã? Não distingue isótopos."},
+    {"id": "resposta",
+     "texto": "Sobra a centrifugação: girando muito rápido, o mais pesado vai pra parede. Letra B.",
+     "falado": "Sobra a centrifugação: girando muito rápido, o mais pesado vai pra parede. Letra B!"},
+    {"id": "cta",
+     "texto": "E o Brasil enriquece urânio com centrífugas desenvolvidas pela Marinha, em Resende. Manda pra quem vai fazer o ENEM.",
+     "falado": "E o Brasil enriquece urânio com centrífugas desenvolvidas pela Marinha, em Resende. Manda pra quem vai fazer o ENEM."}
+  ]
+}
